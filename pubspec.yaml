@@ -1,0 +1,37 @@
+name: lali_project
+description: "Controle et surveillance Robot."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  speech_to_text: ^7.3.0
+  fluttertoast: ^8.2.2
+  permission_handler: ^11.0.0
+  flutter_bluetooth_serial: ^0.4.0
+  flutter_blue_plus: ^1.30.2
+  http: ^1.2.1
+  camera: ^0.10.4
+  web_socket_channel: ^3.0.0
+  connectivity_plus: ^6.0.4
+  network_info_plus: ^5.0.0
+  shared_preferences: ^2.2.3
+  geolocator: ^11.0.1
+  url_launcher: ^6.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image1.jpg
